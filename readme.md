@@ -1,3 +1,6 @@
+# tutorial for remote control of UR robot by using ur robot driver
+
+
 1. ur_robot driver setting up
 mainly based on the source https://github.com/UniversalRobots/Universal_Robots_ROS_Driver?tab=readme-ov-file
 # pc should be in the same ethenet
