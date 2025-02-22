@@ -31,5 +31,5 @@
 
 6. note
    
-   6.1 run diver program on ur robot after rosluanch ur_driver in remoter pc or program will not run
-   6.2 if rviz can not open, make sure apt update
+   5.1 run diver program on ur robot after rosluanch ur_driver in remoter pc or program will not run
+   5.2 if rviz can not open, make sure apt update
