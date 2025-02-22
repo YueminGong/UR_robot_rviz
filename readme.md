@@ -2,7 +2,8 @@
 
 
 1. ur_robot driver setting up
-mainly based on the source https://github.com/UniversalRobots/Universal_Robots_ROS_Driver?tab=readme-ov-file
+mainly based on the source
+https://github.com/UniversalRobots/Universal_Robots_ROS_Driver?tab=readme-ov-file
 #pc should be in the same ethenet
 pc ip >>>> ros bash ifconfig
 
@@ -13,7 +14,7 @@ $ roslaunch ur_calibration calibration_correction.launch \
 $ roslaunch ur_robot_driver ur10e_bringup.launch robot_ip:=192.168.0.102  kinematics_config:=${HOME}/my_robot_calibration.yaml
 #robot ip can be found on the teaching panel "about" button
 
-3.moveit install and setting up
+3. moveit install and setting up
 $ sudo apt install ros-noetic-moveit
 $ source devel/setup.bash
 $ catwin_make
