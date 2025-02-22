@@ -3,11 +3,10 @@
 
 1. ur_robot driver setting up
 mainly based on the source https://github.com/UniversalRobots/Universal_Robots_ROS_Driver?tab=readme-ov-file
-# pc should be in the same ethenet
+#pc should be in the same ethenet
 pc ip >>>> ros bash ifconfig
 
 2. ur driver environment setting up in remote pc
-***********************************************************
 $ roscore
 $ roslaunch ur_calibration calibration_correction.launch \
   robot_ip:=<robot_ip> target_filename:="${HOME}/my_robot_calibration.yaml"
