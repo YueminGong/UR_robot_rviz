@@ -29,3 +29,6 @@
    $ roslaunch ur10e_moveit_config moveit_planning_execution.launch
    $ roslaunch ur10e_moveit_config moveit_rviz.launch rviz_config:=$(rospack find ur10e_moveit_config)/launch/moveit.rviz
 
+7. note
+   7.1 run diver program on ur robot after rosluanch ur_driver in remoter pc or program will not run
+   7.2 if rviz can not open, make sure apt update
