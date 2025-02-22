@@ -9,8 +9,7 @@ pc ip >>>> ros bash ifconfig
 
 2. ur driver environment setting up in remote pc
 $ roscore
-$ roslaunch ur_calibration calibration_correction.launch \
-  robot_ip:=<robot_ip> target_filename:="${HOME}/my_robot_calibration.yaml"
+$ roslaunch ur_calibration calibration_correction.launch robot_ip:=192.168.0.102 target_filename:="${HOME}/my_robot_calibration.yaml"
 $ roslaunch ur_robot_driver ur10e_bringup.launch robot_ip:=192.168.0.102  kinematics_config:=${HOME}/my_robot_calibration.yaml
 #robot ip can be found on the teaching panel "about" button
 
